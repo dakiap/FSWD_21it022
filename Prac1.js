@@ -177,7 +177,7 @@ function task8() {
 
 //task 9
 function task9() {
-    setTimeout(function () { myFunction("You just click here before 3 seconds!!!"); }, 3000);
+    setTimeout(function () { myFunction("You just click here before 3 seconds!!"); }, 3000);
 
     function myFunction(value) {
         document.getElementById("demo").innerHTML = value;
