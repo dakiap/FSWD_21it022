@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Revision</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+</head>
+
+<body>
+    <form>
+        ---------------------------Task 1---------------------------<br /><br />
+        <div id="tsk1"></div>
+        <br /><br />
+
+        ---------------------------Task 2---------------------------<br /><br />
+        <label>Enter first number: </label>
+        <input id="first" type="text" name="first" /><br /><br />
+        <label>Enter second number:</label>
+        <input id="second" type="text" name="second" /><br /><br />
+
+        <input type="radio" name="op" id="add" />Addition
+        <input type="radio" name="op" id="sub" />Subtraction
+        <input type="radio" name="op" id="mul" />Multipication
+        <input type="radio" name="op" id="div" />Division<br /><br />
+
+        <div id="result"></div>
+        <br />
+        <button type="button"
+            onclick="calc(parseInt(document.getElementById('first').value),parseInt(document.getElementById('second').value))">
+            submit</button><br /><br />
+
+        ---------------------------Task 3---------------------------<br /><br />
+        <label>Enter your age:</label>
+        <input id="age" type="text" name="age" />&nbsp;<button type="button" onclick="verify()">submit</button><br><br>
+        <div id="tsk3">
+
+        </div><br><br>
+
+        ---------------------------Task 4---------------------------<br><br>
+        <div id="tsk4">
+            <label>Click to konw min amd max Salaries: </label>
+            <button type="button" onclick="task4()">submit</button>
+        </div><br><br>
+
+        ---------------------------Task 5---------------------------<br><br>
+        <div id="tsk5">
+            <label>Click to display Booklist: </label>
+            <button type="button" onclick="task5()">submit</button>
+            <ul id="bookList"></ul>
+        </div><br><br>
+
+        ---------------------------Task 6---------------------------<br><br>
+        <div id="tsk6">
+            <label>Click to konw scope: </label>
+            <button type="button" onclick="task6()">submit</button>
+            <ul id="scope"></ul>
+        </div><br><br>
+
+        ---------------------------Task 7---------------------------<br><br>
+        <div id="tsk7">
+            <button type="button" onclick="task7()" id="myButton">Click Here</button>
+        </div><br><br>
+
+        ---------------------------Task 8---------------------------<br><br>
+        <div id="tsk8">
+            <label>Enter the number: </label>
+            <input type="text" id="num1" name="num1">
+            <button type="button" onclick="task8()">submit</button><br><br>
+            <div id="num0">
+
+            </div>
+        </div><br><br>
+
+        ---------------------------Task 9---------------------------<br><br>
+        <div id="tsk9">
+            <button type="button" onclick="task9()">Click Here</button><br><br>
+            <div id="demo" style="font-size: large;">
+
+            </div>
+        </div><br><br>
+
+
+
+    </form>
+    <script src="Prac1.js"></script>
+</body>
+
+</html>
