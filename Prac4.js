@@ -41,6 +41,8 @@ const server = http.createServer((req, res) => {
     console.log(upper_case.upperCase(`Hello World`));
 });
 
+let ans = app(3,4,'+');
+console.log(ans);
 
 // const options = {
 //     method: 'POST',
@@ -62,6 +64,3 @@ const server = http.createServer((req, res) => {
 
 // }).on("error", (err) => {
 //     console.log("Error: ", err)}).end();
-
-let ans = app(3,4,'+');
-console.log(ans);
